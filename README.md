@@ -4,7 +4,8 @@ Custom 16-bit Multi-cycle Processor
 
 This project involves the design and implementation of a custom 16-bit multi-cycle processor using Verilog and Xilinx Vivado. The processor supports a variety of arithmetic, logical, load/store, and control operations, and includes program and data memory along with special purpose registers for handling multiplication operations.
 
-Features
+*Features*
+
 Multi-cycle Architecture: Utilizes a finite state machine (FSM) to break down instruction execution into multiple stages (fetch, decode, execute, and control flow).
 
 Arithmetic Operations: Supports addition, subtraction, and multiplication.
@@ -17,7 +18,8 @@ Control Instructions: Implements jump and branch instructions based on condition
 
 Condition Flags: Integrates sign, zero, overflow, and carry flags for effective branching decisions.
 
-Files
+*Files*
+
 top.v: The main Verilog file containing the processor implementation.
 
 processor_memory.mem: Memory file for initializing the program memory.
